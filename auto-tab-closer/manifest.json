@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Tab Closer",
+  "version": "1.0",
+  "description": "Автоматическое закрытие вкладок",
+  "permissions": ["tabs", "alarms"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Auto Tab Closer",
+    "default_icon": {
+      "16": "icon.png",
+      "32": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
